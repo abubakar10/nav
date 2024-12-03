@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+.main .logoimg img{
+    width: 100px;
+}
+
+.main .logos img,svg{
+    width: 30px;
+}
+.main .links{
+    display: flex;
+    column-gap: 20px;
+} 
+.main .links a{
+    text-decoration: none;
+    color: black;
+
+}
+.main .links a:hover{
+    color: #56cfe1;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+.main .logos img:hover{
+    color: #56cfe1;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
